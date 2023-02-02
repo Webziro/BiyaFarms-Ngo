@@ -10400,7 +10400,7 @@ a.view:hover {
   position: relative; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/banner11.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 0;
@@ -10915,10 +10915,17 @@ p.count-text {
     border-right: none; } }
 
 .w3l-bg {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/home.jpeg) no-repeat center;
   background-size: cover;
   position: relative;
-  z-index: 0; }
+  z-index: 0; 
+}
+
+
+#w3l-bg{
+    height:500px;
+}
+
   .w3l-bg:before {
     content: "";
     position: absolute;
@@ -10929,6 +10936,8 @@ p.count-text {
     z-index: -1;
     background-color: #0a0a0a;
     opacity: .5; }
+
+
   .w3l-bg h3.title-big {
     color: #fff;
     font-size: 50px; }
@@ -11358,11 +11367,13 @@ button.owl-next {
     right: 18%; } }
 
 .inner-banner {
-  background: url(../images/innerbanner.jpg) no-repeat center;
+  background: url(../images/home.jpeg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 0;
-  margin-top: 90px; }
+  margin-top: 90px; 
+  margin-bottom: 20px;
+}
 
 .inner-banner:before {
   content: "";
@@ -11462,14 +11473,22 @@ h4.title {
   background: var(--bg-color); }
 
 .donar-img {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/about2.jpeg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
   border-radius: var(--border-radius-full);
-  padding: 50px; }
+  padding: 50px;
+  background-position: top;
+ 
+}
+
+#donor-img{
+  height: 600px;
+
+}
 
 .right-side {
   max-width: 300px;

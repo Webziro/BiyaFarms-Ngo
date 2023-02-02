@@ -5,7 +5,9 @@
                       <div class="d-grid grid-col-4 grids-content">
                           <div class="column">
                               <h4>Visit us at </h4>
-                                <p>This is our Address</p>
+                                <p> Biyafarms Initiative for the less privileged
+                                    2, Katako Junction, Jos, Nigeria
+                                </p>
                           </div>
                           <div class="column">
                               <h4>Call Us</h4>
@@ -32,10 +34,12 @@
                       </div>
                   </div>
                   <div class="footers14-bottom d-flex">
-                    
+   
                   <div class="copyright">
                           <p>© <?php echo date("Y"); ?> <a href="+2347067085121"
                                   target="_blank">Developed by Webziro</a></p>
                       </div>
+
+
 
                   

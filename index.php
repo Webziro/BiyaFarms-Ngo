@@ -1,60 +1,6 @@
 <?php
-    include "include/title.php";
+include "include/header.php"
 ?>
-<!doctype html>
-<html lang="en">
-  
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title> <?php echo $title ?> </title>
-
-    <link href="../../../../../../../fonts.googleapis.com/css29cf4.css?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
-    
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
-  </head>
-  <body>
-<script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-<script>
-(function(){
-if(typeof _bsa !== 'undefined' && _bsa) {
-	// format, zoneKey, segment:value, options
-	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
-}
-})();
-</script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-
-    </div>
-    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
-        style="overflow: hidden; outline: none;">
-    </div>
-</div>
-</div>
-</div>
-
-    <?php
-        include "include/header.php"
-    ?>
 
 <!-- main-slider -->
 <section class="w3l-main-slider" id="home">
@@ -66,10 +12,8 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                         <div class="banner-info">
                             <div class="container">
                                 <div class="banner-info-bg text-left">
-                                    <p>Make a Child Smile</p>
-                                    <h5>One random act of kindness can change the world.
-                                        be the reason why a child smile.
-                                    </h5>
+                                    <p>Training and Empowerment</p>
+                                    <h5>Free Training and Empowerment for women and farmers in fish and poultry farming.</h5>
                                     <a href="about.php" class="btn btn-primary btn-style">Read More</a>
                                 </div>
                             </div>
@@ -83,8 +27,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                         <div class="banner-info">
                             <div class="container">
                                 <div class="banner-info-bg text-left">
-                                    <p>Training and Empowerment</p>
-                                    <h5>Free Training and Empowerment for women and farmers in fish and poultry farming.</h5>
+                                <p>Make a Child Smile</p>
+                                    <h5>One random act of kindness can change the world.
+                                        be the reason why a child smile.
+                                    </h5>
                                     <a href="about.php" class="btn btn-primary btn-style">Read More</a>
                                 </div>
                             </div>
@@ -147,7 +93,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-md-0 mt-sm-4 mt-3">
                 <div class="box-wrap">
-                    <h4><a href="#team">Top Founders</a></h4>
+                    <h4><a href="vision.php">Read our Vision</a></h4>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 mt-lg-0 mt-sm-4 mt-3">
@@ -160,6 +106,13 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 </section>
 <!-- //home page block1 -->
 <!-- middle -->
+
+                        <?php
+                            if(isset($_SESSION['msg'])){
+                                echo($_SESSION['msg']);
+                                unset($_SESSION['msg']);
+                            }
+                        ?>
 	<div class="middle py-5" id="facts">
 		<div class="container pt-lg-3">
 			<div class="welcome-left text-center py-md-5 py-3">
@@ -245,7 +198,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 </section>
 <!-- //stats -->
 <!-- bg -->
-<div class="w3l-bg py-5">
+<div class="w3l-bg py-5" id="w3l-bg">
     <div class="container py-lg-5 py-md-4">
         <div class="welcome-left text-center py-lg-4">
             <span class="fa fa-heart-o"></span>
@@ -269,27 +222,27 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
                 <div class="img-block">
                     <a href="causes.php">
-                        <img src="assets/images/blog5.jpg" class="img-fluid radius-image-full" alt="image" />
+                        <img src="assets/images/empower5.jpeg" class="img-fluid radius-image-full" alt="image" />
                         <span class="title">Empowerment of the IPD community</span>
                     </a>
                 </div>
                 <div class="img-block mt-4">
-                    <a href="causes.php"> <img src="assets/images/blog2.jpg" class="img-fluid radius-image-full"
+                    <a href="causes.php"> <img src="assets/images/empower4.jpeg" class="img-fluid radius-image-full"
                             alt="image" />
-                        <span class="title">Supply of clean water to rural communities</span>
+                        <span class="title">Assessment of needs for (IDP) in MMC, Konduga, Bama, Gwoza, Mafa, Dikwa, Damboa in Borno State Nigeria.</span>
                     </a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-4">
                 <div class="img-block">
-                    <a href="causes.php"> <img src="assets/images/blog3.jpg" class="img-fluid radius-image-full"
+                    <a href="causes.php"> <img src="assets/images/empower.jpeg" class="img-fluid radius-image-full"
                             alt="image" />
                         <span class="title">Empowerment of freshly trained farmers.</span>
                     </a>
                 </div>
                 <div class="img-block mt-4">
                     <a href="causes.php">
-                        <img src="assets/images/blog4.jpg" class="img-fluid radius-image-full" alt="image" />
+                        <img src="assets/images/empower2.jpeg" class="img-fluid radius-image-full" alt="image" />
                         <span class="title">Empowerment of women in the rural areas</span>
                     </a>
                 </div>
@@ -310,7 +263,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                         </div>
                         <div class="icon-info">
                             <h5>Rehabilitation</h5>
-                            <p> To rehablitate and train indigent persons of the society  </p>
+                            <p> To rehablitate and train indigent persons in our society  </p>
 
                         </div>
                     </div>
@@ -352,7 +305,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                 <div class="col-lg-4 col-md-6 mt-4 pt-md-2">
                     <div class="float-lt feature-gd">
                         <div class="icon">
-                            <img src="assets/images/food.png" alt="" class="img-fluid">
+                            <img src="assets/images/home.png" alt="" class="img-fluid">
                         </div>
                         <div class="icon-info">
                             <h5>Awearness</h5>
@@ -368,8 +321,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                         </div>
                         <div class="icon-info">
                             <h5>Rescue</h5>
-                            <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod init
-                                tempor primis in init.</p>
+                            <p> To help rescue and reunite people back to their families </p>
 
                         </div>
                     </div>
@@ -378,7 +330,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
         </div>
     </div>
 </section>
-
+<!-- 
 <section class="w3l-clients py-5" id="clients">
     <div class="call-w3 py-lg-5 py-md-4">
         <div class="container">
@@ -386,19 +338,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             <div class="company-logos text-center mt-5">
                 <div class="row logos">
                     <div class="col-lg-2 col-md-3 col-4">
-                        <img src="assets/images/brand1.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-4">
                         <img src="assets/images/brand2.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-4">
-                        <img src="assets/images/brand3.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
                         <img src="assets/images/brand4.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
-                        <img src="assets/images/brand5.png" alt="" class="img-fluid">
                     </div>
                     <div class="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
                         <img src="assets/images/brand6.png" alt="" class="img-fluid">
@@ -407,7 +350,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- footer 14 -->
 <div class="w3l-footer-main">
   <div class="w3l-sub-footer-content">
@@ -420,24 +363,25 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                       </div>
                       <div class="text-grid grid-three-column">
                           <h2>Subscribe our Newsletter to receive latest updates from us</h2>
-                          <p>We won’t give you spam mails.</p>
+                          <p>We will send you updates of our future programs</p>
                       </div>
                       <div class="form-text grid-three-column">
-                          <form action="https://demo.w3layouts.com/" method="GET">
-                              <input type="email" name=" placeholder" placeholder="Enter Your Email" required="">
-                              <button type="submit" class="btn btn-style btn-primary">Submit</button>
+                          <form action="form/newsletter.php" method="POST">
+                              <input type="email" name="semail" placeholder="Enter Your Email" required="">
+                              <button type="submit" name="submit"  class="btn btn-style btn-primary">Submit</button>
                           </form>
                       </div>
                   </div>
               </div>
           </div>
       </section>
-      <!-- Footers-14 -->
-                    <?php
-                        include "include/footer.php";
-                    ?>
+      
+    <!-- Footers-14 -->
+        <?php
+            include "include/footer.php";
+        ?>
                       
-                  </div>
+         </div>
               </div>
           </div>
           <!-- move top -->

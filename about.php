@@ -1,53 +1,4 @@
-<!doctype html>
-<html lang="en">
-  
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Save Poor - Charity Category Responsive Website Template | Home : W3layouts</title>
-
-    <link href="../../../../../../../fonts.googleapis.com/css29cf4.css?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
-    
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
-  </head>
-  <body>
-<script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-<script>
-(function(){
-if(typeof _bsa !== 'undefined' && _bsa) {
-	// format, zoneKey, segment:value, options
-	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
-}
-})();
-</script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-
-    </div>
-    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
-        style="overflow: hidden; outline: none;">
-    </div>
-</div>
-</div>
-</div>
 
     <?php
         include "include/header.php"
@@ -73,18 +24,16 @@ if(typeof _bsa !== 'undefined' && _bsa) {
     <div class="container py-lg-5 py-md-3">
         <div class="row">
             <div class="col-lg-6">
-                <h5 class="title-small">A little about Us</h5>
-                <h3 class="title-big">Welcome to Save Poor charity</h3>
-                <p class="mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                    ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet viverra ornare
-                    elit. Non quae, ut diam libero erat.</p>
-                <p class="mt-3">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut sed diam libero erat. Aenean faucibus
-                    nibh et justo cursus.</p>
-                <h3 class="title mt-4">"Over 20 Years of Accomplishments”</h3>
+            <h3 class="title mt-4">"We have Over 5 Years of Accomplishments and empowering people”</h3> <br><br>
+                <h5 class="title-small">Get to know about us</h5>
+                <h3 class="title-big">Welcome to Biyafarms Initiative for the Less Privileged </h3>
+                <p class="mt-3">BFILP is an NGO based in Nigeria, we are committed to improving human lives through rehabilitation, empowerment and education</p>
+                <p class="mt-3">We have helped to empower women and reunite a lot of children back to their parents.</p>
+                
                 <a href="#MoreAboutUs" class="btn btn-primary btn-style mt-lg-5 mt-4">Learn More about Us</a>
             </div>
             <div class="col-lg-6 mt-lg-0 mt-5">
-                <img src="assets/images/about.jpg" alt="" class="radius-image img-fluid">
+                <img src="assets/images/about.jpeg" alt="" class="radius-image img-fluid">
             </div>
         </div>
     </div>
@@ -95,11 +44,9 @@ if(typeof _bsa !== 'undefined' && _bsa) {
          <div class="container">
              <div class="row align-items-center">
                  <div class="main-midd col-lg-9">
-                     <h3 class="title-big">Facts about Save Poor charity</h3>
-                     <p class="mt-3">A lot of work goes down at the grass root level in villages in the remotest corners
-                         as
-                         well as the most populous metros across India, with schools and government bodies.
-                         We need your contributions to keep coming in.</p>
+                     <h3 class="title-big">Facts about BFILP</h3>
+                     <p class="mt-3">We are the only NGO in Northern Nigeria, commited to the plight of Almajiri children and commited to 
+                        improving and empowering the plight of women in IDP camps all accross the northern states.</p>
                  </div>
                  <div class="main-midd-2 col-lg-3 mt-lg-0 mt-4 text-lg-right">
                      <a class="btn btn-style btn-primary" href="donate.php"><span class="fa fa-heart mr-1"></span> Donate
@@ -107,19 +54,19 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                  </div>
              </div>
 
-             <div class="donar-img mt-5">
-                <div class="right-side text-center">
+             <div class="donar-img  mt-5" id="donor-img">
+                <!-- <div class="right-side text-center">
                     <span class="fa fa-heart"></span>
-                    <p>OUR TOP DONOR</p>
+                    <p>OUR LATEST DONOR</p>
                     <h3 class="big my-3">$1.6m</h3>
                     <a class="btn btn-text" href="#ViewMore">View More</a>
-                </div>
+                </div> -->
             </div>
          </div>
      </div>
  </section>
  <!-- //forms -->
-<section class="w3l-aboutblock3 py-5" id="videos">
+<!-- <section class="w3l-aboutblock3 py-5" id="videos">
     <div class="video-recipe py-lg-5 py-md-3">
         <div class="container">
             <div class="row">
@@ -148,7 +95,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--/team-sec-->
 <section class="w3l-team-main" id="team">
     <div class="team py-5">
@@ -200,230 +147,29 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                     </div>
                 </div>
                 <!-- end team member -->
-
-                <div class="team-wrap">
-                    <div class="team-member last text-center">
-                        <div class="team-img">
-                            <img src="assets/images/team5.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-
-                <div class="team-wrap">
-                    <div class="team-member last text-center">
-                        <div class="team-img">
-                            <img src="assets/images/team6.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-
-                <div class="team-wrap">
-                    <div class="team-member last text-center">
-                        <div class="team-img">
-                            <img src="assets/images/team7.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-
-                <div class="team-wrap">
-                    <div class="team-member last text-center">
-                        <div class="team-img">
-                            <img src="assets/images/team8.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
-                    </div>
-                </div>
-                <!-- end team member -->
-
-                <div class="team-wrap">
-                    <div class="team-member last text-center">
-                        <div class="team-img">
-                            <img src="assets/images/team9.jpg" alt="" class="radius-image img-fluid">
-                        </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
-                    </div>
-                </div>
-                <!-- end team member -->
+            
 
                 <div class="team-apply">
-                    <a href="#url" class="team-title m-0"><span class="fa fa-plus-circle d-block mb-3"></span> Apply for Volunteer</a>
+                    <a href="volunteer.php" class="team-title m-0"><span class="fa fa-plus-circle d-block mb-3"></span> Apply for Volunteer</a>
                 </div>
 
             </div>
         </div>
 </section>
 <!--//team-sec-->
-<!-- testimonials -->
-<section class="w3l-testimonials" id="testimonials">
-	<!-- /grids -->
-	<div class="customer-layout py-5">
-		<div class="container py-lg-5 py-md-4">
-            <div class="heading align-self text-center">
-                <h6 class="title-small">Our Testimonials</h6>
-                <h3 class="title-big mb-md-5 mb-4">Over 20 Years of Accomplishments</h3>
-            </div>
-			<!-- /grids -->
-			<div class="row testimonial-row">
-				<div id="owl-demo1" class="owl-two owl-carousel owl-theme mb-lg-3 mb-5">
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-								<blockquote>
-									<q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-										voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-								</blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team1.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Michael D. Kirby</h3>
-										<p class="indentity">Former U.S. Ambassador </p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-							  <blockquote>
-								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-							  </blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Elaine F. Marshall</h3>
-										<p class="indentity">Secretary of State </p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-							  <blockquote>
-								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-							  </blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Janice Hoffman</h3>
-										<p class="indentity">Chief Operating Officer</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-							  <blockquote>
-								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-							  </blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team4.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Stefan Homa</h3>
-										<p class="indentity">Charity architect</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-							  <blockquote>
-								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-							  </blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team2.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Jeannie Gooch</h3>
-										<p class="indentity">Funding teacher</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="testimonial-content">
-							<div class="testimonial">
-							  <blockquote>
-								  <q>Lorem ipsum dolor sit amet int consectetur adipisicing elit. Velita beatae laudantium
-									  voluptate rem ullam dolore nisi voluptatibus est quasi, doloribus tempora.</q>
-							  </blockquote>
-								<div class="testi-des">
-									<div class="test-img"><img src="assets/images/team3.jpg" class="img-fluid" alt="client-img">
-									</div>
-									<div class="peopl align-self">
-										<h3>Elaine F. Marshall</h3>
-										<p class="indentity">Secretary of State</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- /grids -->
-	</div>
-	<!-- //grids -->
-  </section>
-  <!-- //testimonials -->
+
 <!-- footer 14 -->
 <div class="w3l-footer-main">
   <div class="w3l-sub-footer-content">
-      <section class="_form-3">
-          <div class="form-main">
-              <div class="container">
-                  <div class="middle-section grid-column top-bottom">
-                      <div class="image grid-three-column">
-                          <img src="assets/images/subscribe.png" alt="" class="img-fluid radius-image-full">
-                      </div>
-                      <div class="text-grid grid-three-column">
-                          <h2>Subscribe our Newsletter to receive latest updates from us</h2>
-                          <p>We won’t give you spam mails.</p>
-                      </div>
-                      <div class="form-text grid-three-column">
-                          <form action="https://demo.w3layouts.com/" method="GET">
-                              <input type="email" name=" placeholder" placeholder="Enter Your Email" required="">
-                              <button type="submit" class="btn btn-style btn-primary">Submit</button>
-                          </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- Footers-14 -->
-   
-                  <?php
-                        include "include/footer.php";
-                    ?>
-                  </div>
-              </div>
-          </div>
+
+
+<!-- Footers-14 -->
+<?php
+    include "include/footer.php";
+?>
+</div>
+    </div>
+        </div>
           <!-- move top -->
           <button onclick="topFunction()" id="movetop" title="Go to top">
               &uarr;

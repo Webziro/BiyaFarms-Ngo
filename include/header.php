@@ -1,18 +1,68 @@
 <?php
-    session_start();
-
+  session_start();
+    include "title.php";
+  
 ?>
+
+<!doctype html>
+<html lang="en">
+  
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="BiyaFarms Intiative for Less Privillaged- Biflp is an NGO that exisit to help the poor through skill acquization">
+
+    <title> <?php echo $title ?> </title>
+
+    <link href="../../../../../../../fonts.googleapis.com/css29cf4.css?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+    
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+<script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+
+    </div>
+    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
+        style="overflow: hidden; outline: none;">
+    </div>
+</div>
+</div>
+</div>
+
+
 <!--header-->
 <header id="site-header" class="fixed-top">
   <div class="container">
     <nav class="navbar navbar-expand-lg stroke">
-      <h1><a class="navbar-brand mr-lg-5" href="index.php">
-        <img src="assets/images/logo.png" alt="Your logo" title="Your logo" />Save Poor
-        </a></h1>
-      <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.php">
-        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-    </a> -->
+      <a class="navbar-brand mr-lg-5" href="index.php">
+        <img src="assets/images/logo.jpg" alt="Biflp Logo" title="Biflp Logo" />
+        </a>
       <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
         data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -29,33 +79,32 @@
           <li class="nav-item @@about__active">
             <a class="nav-link" href="about.php">About</a>
           </li>
+
+          <li class="nav-item @@about__active">
+            <a class="nav-link" href="volunteer.php">Volunteer</a>
+          </li>
+
           <li class="nav-item dropdown @@pages__active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Pages<span class="fa fa-angle-down"></span>
+              Coporate<span class="fa fa-angle-down"></span>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-              <a class="dropdown-item @@causes__active" href="causes.php">Causes</a>
               <a class="dropdown-item @@causes__active" href="mission.php">Mission</a>
+              <a class="dropdown-item @@causes__active" href="#">Vision</a>
               <a class="dropdown-item @@donate__active" href="donate.php">Donate Now</a>
-              <a class="dropdown-item @@error__active" href="error.php">404 Error page</a>
-              <a class="dropdown-item" href="landing-single.php">Landing page</a>
             </div>
           </li>
+
           <li class="nav-item dropdown @@blog__active">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Blog<span class="fa fa-angle-down"></span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-              <a class="dropdown-item @@b__active" href="blog.php">Blog posts</a>
-              <a class="dropdown-item @@bs__active" href="blog-single.php">Blog single</a>
-            </div>
+            
           </li>
+
           <li class="nav-item @@contact__active">
             <a class="nav-link" href="contact.php">Contact</a>
           </li>
           <li class="ml-lg-auto mr-lg-0 m-auto">
+
             <!--/search-right-->
             <div class="search-right">
               <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
@@ -63,7 +112,7 @@
               <div id="search" class="pop-overlay">
                   <div class="popup">
                       <h4 class="mb-3">Search here</h4>
-                      <form action="https://demo.w3layouts.com/demos_new/template_demo/01-09-2020/savepoor-liberty-demo_Free/1012221799/web/error.php" method="GET" class="search-box">
+                      <form action="# class="search-box" method="GET" >
                           <input type="search" placeholder="Enter Keyword" name="search" required="required"
                               autofocus="">
                           <button type="submit" class="btn btn-style btn-primary">Search</button>
@@ -76,11 +125,13 @@
           </div>
           <!--//search-right-->
           </li>
+          
           <li class="align-self">
             <a href="donate.php" class="btn btn-style btn-primary ml-lg-3 mr-lg-2"><span class="fa fa-heart mr-1"></span> Donate</a>
           </li>
         </ul>
       </div>
+
       <!-- toggle switch for light and dark theme -->
       <div class="mobile-position">
         <nav class="navigation">

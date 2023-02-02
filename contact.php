@@ -1,58 +1,3 @@
-<?php
-
-  include "include/title.php";
-?>
-
-<!doctype html>
-<html lang="en">
-  
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title><?php echo $title; ?></title>
-
-    <link href="../../../../../../../fonts.googleapis.com/css29cf4.css?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
-    
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-liberty.css">
-  </head>
-  <body>
-<script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-<script>
-(function(){
-if(typeof _bsa !== 'undefined' && _bsa) {
-	// format, zoneKey, segment:value, options
-	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
-}
-})();
-</script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-
-    </div>
-    <div class="right-sidebar-panel-content animated fadeInRight" tabindex="5003"
-        style="overflow: hidden; outline: none;">
-    </div>
-</div>
-</div>
-</div>
 
     <?php
         include "include/header.php"
@@ -105,10 +50,10 @@ if(typeof _bsa !== 'undefined' && _bsa) {
                     <div class="col-lg-4 cont-details">
                         <address>
                             <h5 class="">Contact Address</h5>
-                            <p><span class="fa fa-map-marker"></span>235 Terry, 10001 20C Trolley Square, DE 19806 U.S.A. </p>
+                            <p><span class="fa fa-map-marker"></span>2 Katako Junction Jos, Plateau state, Nigeria </p>
                             <p> <a href="mailto:info@example.com"><span
-                                        class="fa fa-envelope"></span>info@example.com</a></p>
-                            <p><span class="fa fa-phone"></span><a href="tel:+44-000-888-999"> +44-000-888-999</a></p>
+                                        class="fa fa-envelope"></span>info@bfilp.com</a></p>
+                            <p><span class="fa fa-phone"></span><a href="tel:+44-000-888-999"> +234 704 980 3097</a></p>
                             <a href="donate.php" class="btn btn-style btn-outline-primary mt-4">
                                 <span class="fa fa-heart mr-1"></span> Make Donation</a>
                         </address>
@@ -120,34 +65,13 @@ if(typeof _bsa !== 'undefined' && _bsa) {
 </section>
 <!-- //contacts -->
 <div class="map">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2895687731!2d-74.26055986835598!3d40.697668402590374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1562582305883!5m2!1sen!2sin"
-        frameborder="0" style="border:0" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62883.93503985408!2d8.836157798721768!3d9.913463385027093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1053728716f236bf%3A0x4c8b12f200f0dc99!2sKatako%20Road%2C%20Jos%2C%20Plateau%20State!5e0!3m2!1sen!2sng!4v1675169261499!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
 </div>
-<!-- footer 14 -->
+<!-- footer 14 --> <br> <br>
 <div class="w3l-footer-main">
   <div class="w3l-sub-footer-content">
-      <section class="_form-3">
-          <div class="form-main">
-              <div class="container">
-                  <div class="middle-section grid-column top-bottom">
-                      <div class="image grid-three-column">
-                          <img src="assets/images/subscribe.png" alt="" class="img-fluid radius-image-full">
-                      </div>
-                      <div class="text-grid grid-three-column">
-                          <h2>Subscribe our Newsletter to receive latest updates from us</h2>
-                          <p>We won’t give you spam mails.</p>
-                      </div>
-                      <div class="form-text grid-three-column">
-                          <form action="https://demo.w3layouts.com/" method="GET">
-                              <input type="email" name=" placeholder" placeholder="Enter Your Email" required="">
-                              <button type="submit" class="btn btn-style btn-primary">Submit</button>
-                          </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
+      
       <!-- Footers-14 -->
                <?php
                         include "include/footer.php";

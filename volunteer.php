@@ -1,59 +1,66 @@
-<?php
-include "include/header.php"
-?>
 
-<!-- //header -->
+    <?php
+        include "include/header.php"
+    ?>
+
 <div class="inner-banner">
     <section class="w3l-breadcrumb py-5">
         <div class="container py-lg-5 py-md-3">
-            <h2 class="title"><?php echo $title; ?></h2>
+            <h2 class="title">Volunteer</h2>
         </div>
     </section>
 </div>
+<!-- banner bottom shape -->
+<div class="position-relative">
+    <div class="shape overflow-hidden">
+        <svg viewBox="0 0 2880 48" fill="none" xmlns="../../../../../../../www.w3.org/2000/svg.php">
+            <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+        </svg>
+    </div>
+</div>
+<!-- banner bottom shape -->
+<!-- contacts -->
+<section class="w3l-contact-7 py-5" id="contact">
+    <div class="contacts-9 py-lg-5 py-md-4">
+        <div class="container">
+            <div class="top-map">
+                <div class="row map-content-9">
+                    <div class="col-lg-8">
+                        <h3 class="title-big">Become a Voluteer</h3>
+                        <p class="mb-4 mt-lg-0 mt-2">You can make a diffrence by becoming one of our voluteers *</p>
 
-<section class="w3l-aboutblock2" id="story">
-    <div class="py-5">
-        <div class="container py-lg-4 py-md-3">
-            <div class="cwp4-two">
-                <div class="cwp4-text">
-                    <h3 class="title-big">Our Mission</h3>
-                    <ul class="cont-4 mt-4">
-                        <li><span class="fa fa-check"></span>We are committed to improving human lives through our rehabilitation.</li>
-                        <li><span class="fa fa-check"></span> We are committed to ending hunger through empowerment with a farming skill</li>
-                        <li><span class="fa fa-check"></span>We ar committed to reducing malnutrition in women and children</li>
-                        <li><span class="fa fa-check"></span>We are committed to decreasing the numbers of out of school children</li>
-                        <li><span class="fa fa-check"></span>We are committed to reuniting children and their parents</li>
-                    </ul>
-                </div>
-                <div class="cwp4-text mt-md-5 mt-4">
-                    <h3 class="title-big">How you can Help</h3>
-                    <ul class="cont-4 mt-4">
-                        <li><span class="fa fa-check"></span>We want to do more and you can help. By committing a small
-                            fraction of your income to protect children in need, you can help save a child and
-                            contribute to humanity.</li>
-                        <li><span class="fa fa-check"></span>You can help us empower more women and bring them out of poverty.</li>
-                    </ul>
-                    <a href="donate.php" class="btn btn-style btn-primary mt-md-4 mt-2"> I Want to donate</a>
+                        <?php
+                            if(isset($_SESSION['message'])){
+                              echo $_SESSION['message'];
+                              unset($_SESSION['message']);
+                            }
+                        ?>
+                        <form action="form/volunteer-process.php" method="POST" class="text-right">
+                            <div class="form-grid">
+                                <input type="text" name="name" id="Name" placeholder="Name*" required="">
+                                <input type="email" name="email" id="email" placeholder="Email*" required="">
+                                <input type="text" name="pnumber" id="Phone" placeholder="Phone number*" required="">
+                                <input type="image" name="image" src="assets/images/" placeholder="Phone number" required="">
+                                
+                                <button type="submit" name="submit" value="Submit" class="btn btn-primary btn-style mt-3">Become a Volunteer </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+<!-- //contacts -->
 
 <!-- footer 14 -->
 <div class="w3l-footer-main">
   <div class="w3l-sub-footer-content">
-    
+     
       <!-- Footers-14 -->
-                    <?php
+               <?php
                         include "include/footer.php";
                     ?>
-                  <div class="footers14-bottom d-flex">
-                      <div class="copyright">
-                          <p>© 2020 Save Poor. All rights reserved. Design by <a href="../../../../../../../w3layouts.com/index.php"
-                                  target="_blank">W3Layouts</a></p>
-                      </div>
-                      
                   </div>
               </div>
           </div>
@@ -199,5 +206,5 @@ include "include/header.php"
 </body>
 
 
-<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/01-09-2020/savepoor-liberty-demo_Free/1012221799/web/causes.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Jan 2023 21:25:41 GMT -->
+<!-- Mirrored from demo.w3layouts.com/demos_new/template_demo/01-09-2020/savepoor-liberty-demo_Free/1012221799/web/contact.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Jan 2023 21:25:42 GMT -->
 </html>
