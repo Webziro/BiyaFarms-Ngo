@@ -37,9 +37,9 @@
             <div class="col-lg-4">
                 <div class="donate-details mt-0">
                     <h5 class="">Any query call us</h5>
-                    <p class="phone"><a href="tel:+99-000-666-777">+234 (0)704 980 3097</a></p>
+                    <p class="phone"><a href="tel:+99-000-666-777">+234 (0)706 0596 014</a></p>
                     <h6 class="mt-4 mb-2"><span class="fa fa-envelope-open"></span>Email Us</h6>
-                    <p> <a href="mailto:info@example.com">info@bfilp.ng</a></p>
+                    <p> <a href="mailto:info@example.com">info.biflp@gmail.com</a></p>
                 </div>
             </div>
             <div class="col-lg-8 mt-lg-0 mt-4">
@@ -50,13 +50,13 @@
                             <p class="bank">Account Name</p> <b>:</b><span class="details">Biyafarms Initiative for the Less Privilleged </span>
                         </li>
                         <li>
-                            <p class="bank">Account NO</p> <b>:</b><span class="details"> <b>2036066692</b></span>
+                            <p class="bank">Account Number</p> <b>:</b><span class="details"> <b>2036066692</b></span>
                         </li>
                         <li>
                             <p class="bank">Bank Name</p> <b>:</b><span class="details"><b>First Bank Plc </b></span>
                         </li>
                         <li>
-                            <p class="bank">Type</p> <b>:</b><span class="details">Cureent A/C Corporate</span>
+                            <p class="bank">Type</p> <b>:</b><span class="details">Current A/C Corporate</span>
                         </li>
                     </ul>
                 </div>

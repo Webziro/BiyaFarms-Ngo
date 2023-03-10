@@ -52,8 +52,8 @@
                             <h5 class="">Contact Address</h5>
                             <p><span class="fa fa-map-marker"></span>2 Katako Junction Jos, Plateau state, Nigeria </p>
                             <p> <a href="mailto:info@example.com"><span
-                                        class="fa fa-envelope"></span>info@bfilp.com</a></p>
-                            <p><span class="fa fa-phone"></span><a href="tel:+44-000-888-999"> +234 704 980 3097</a></p>
+                                        class="fa fa-envelope"></span>info.biflp@gmail.com</a></p>
+                            <p><span class="fa fa-phone"></span><a href="tel:+44-000-888-999"> +234 706 0596 014</a></p>
                             <a href="donate.php" class="btn btn-style btn-outline-primary mt-4">
                                 <span class="fa fa-heart mr-1"></span> Make Donation</a>
                         </address>

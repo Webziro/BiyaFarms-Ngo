@@ -53,6 +53,7 @@ include "include/header.php"
                     </div>
                 </li>
             </div>
+
             <div class="item">
                 <li>
                     <div class="slider-info banner-view banner-top3 bg bg2">
@@ -68,6 +69,7 @@ include "include/header.php"
                     </div>
                 </li>
             </div>
+
         </div>
     </div>
 </section>
@@ -173,21 +175,21 @@ include "include/header.php"
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="counter">
-                        <span class="fa fa-cutlery"></span>
-                        <div class="timer count-title count-number mt-3" data-to="2256" data-speed="1500"></div>
+                        <span class="fa fa-cloud"></span>
+                        <div class="timer count-title count-number mt-3" data-to="2256" data-speed="65"></div>
                         <p class="count-text ">Total Projects</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="counter">
-                        <span class="fa fa-home"></span>
-                        <div class="timer count-title count-number mt-3" data-to="1000" data-speed="1500"></div>
+                        <span class="fa fa-male"></span>
+                        <div class="timer count-title count-number mt-3" data-to="5000" data-speed="1500"></div>
                         <p class="count-text ">Total People reached</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-6">
                     <div class="counter">
-                        <span class="fa fa-male"></span>
+                        <span class="fa fa-female"></span>
                         <div class="timer count-title count-number mt-3" data-to="260" data-speed="1500"></div>
                         <p class="count-text ">Total Voluteeres</p>
                     </div>
@@ -214,20 +216,27 @@ include "include/header.php"
             <div class="col-lg-4">
                 <div class="header-section">
                     <h3 class="title-big">Our Humanitarian Projects </h3>
-                    <h4>Do you need to talk to us or become a voluteer? <a href="#url">Send your details to us.</a></h4>
+                    <h4>Do you need to talk to us or become a voluteer? <a href="volunteer.php">Send your details to us.</a></h4>
                     <p class="mt-3 mb-lg-5 mb-4"> Everyday, people like you join us to make a diffrence. You can become part of us today.</p>
                 </div>
                 <a href="contact.php" class="btn btn-outline-primary btn-style">Contact Us</a>
             </div>
             <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
                 <div class="img-block">
-                    <a href="causes.php">
+                    <a href="donate.php">
+                        <img src="assets/images/Idpvisit.jpeg" class="img-fluid radius-image-full" alt="image" />
+                        <span class="title">Assessment of needs for IDP in MMC, Konduga, Bama,Damboa in Borno State Nigeria.</span>
+                    </a>
+                </div>
+
+                <div class="img-block">
+                    <a href="about.php">
                         <img src="assets/images/empower5.jpeg" class="img-fluid radius-image-full" alt="image" />
                         <span class="title">Empowerment of the IPD community</span>
                     </a>
                 </div>
                 <div class="img-block mt-4">
-                    <a href="causes.php"> <img src="assets/images/empower4.jpeg" class="img-fluid radius-image-full"
+                    <a href="donate.php"> <img src="assets/images/empower4.jpeg" class="img-fluid radius-image-full"
                             alt="image" />
                         <span class="title">Assessment of needs for (IDP) in MMC, Konduga, Bama, Gwoza, Mafa, Dikwa, Damboa in Borno State Nigeria.</span>
                     </a>
@@ -235,17 +244,25 @@ include "include/header.php"
             </div>
             <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-4">
                 <div class="img-block">
-                    <a href="causes.php"> <img src="assets/images/empower.jpeg" class="img-fluid radius-image-full"
+                    <a href="donate.php"> <img src="assets/images/empower.jpeg" class="img-fluid radius-image-full"
                             alt="image" />
                         <span class="title">Empowerment of freshly trained farmers.</span>
                     </a>
                 </div>
                 <div class="img-block mt-4">
-                    <a href="causes.php">
+                    <a href="donate.php">
                         <img src="assets/images/empower2.jpeg" class="img-fluid radius-image-full" alt="image" />
                         <span class="title">Empowerment of women in the rural areas</span>
                     </a>
                 </div>
+
+                <div class="img-block">
+                    <a href="contact.php">
+                        <img src="assets/images/womenempower.jpeg" class="img-fluid radius-image-full" alt="image" />
+                        <span class="title">Empowerment of women in IDP camps community</span>
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>
@@ -482,15 +499,15 @@ include "include/header.php"
 
 <!--/MENU-JS-->
 <script>
-  $(window).on("scroll", function () {
-    var scroll = $(window).scrollTop();
+//   $(window).on("scroll", function () {
+//     var scroll = $(window).scrollTop();
 
-    if (scroll >= 80) {
-      $("#site-header").addClass("nav-fixed");
-    } else {
-      $("#site-header").removeClass("nav-fixed");
-    }
-  });
+//     if (scroll >= 80) {
+//       $("#site-header").addClass("nav-fixed");
+//     } else {
+//       $("#site-header").removeClass("nav-fixed");
+//     }
+//   });
 
   //Main navigation Active Class Add Remove
   $(".navbar-toggler").on("click", function () {

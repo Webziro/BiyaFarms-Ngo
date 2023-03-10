@@ -55,48 +55,11 @@
              </div>
 
              <div class="donar-img  mt-5" id="donor-img">
-                <!-- <div class="right-side text-center">
-                    <span class="fa fa-heart"></span>
-                    <p>OUR LATEST DONOR</p>
-                    <h3 class="big my-3">$1.6m</h3>
-                    <a class="btn btn-text" href="#ViewMore">View More</a>
-                </div> -->
+              
             </div>
          </div>
      </div>
  </section>
- <!-- //forms -->
-<!-- <section class="w3l-aboutblock3 py-5" id="videos">
-    <div class="video-recipe py-lg-5 py-md-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 align-self">
-                    <h3 class="title-big">To help the poor to raise their head and face the future with pride</h3>
-                    <p class="mt-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                        ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Non quae, fugiat consequatur voluptatem nihil ad. Lorem ipsum dolor sit amet</p>
-                </div>
-                <div class="col-lg-7 mt-lg-0 mt-md-5 mt-4">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe src="https://www.youtube.com/embed/MG3jGHnBVQs" frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            <h3 class="video-title mt-sm-4 mt-3">The man of the poor.</h3>
-                        </div>
-                        <div class="col-md-6 mt-md-0 mt-5">
-                            <iframe src="https://www.youtube.com/embed/MG3jGHnBVQs" frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                                <h3 class="video-title mt-sm-4 mt-3">Mission of “garbage people”</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!--/team-sec-->
 <section class="w3l-team-main" id="team">
     <div class="team py-5">
         <div class="container py-lg-5">
@@ -107,10 +70,10 @@
                 <div class="team-wrap">
                     <div class="team-member text-center">
                         <div class="team-img">
-                            <img src="assets/images/team1.jpg" alt="" class="radius-image img-fluid">
+                            <img src="assets/images/volun2.jpeg" alt="" class="radius-image img-fluid">
                         </div>
-                        <a href="#url" class="team-title">Luke jacobs</a>
-                        <p>Volunteers</p>
+                        <a href="#url" class="team-title">Luke Gdjson</a>
+                        <p>Volunteer</p>
                     </div>
                 </div>
                 <!-- end team member -->
@@ -118,10 +81,10 @@
                 <div class="team-wrap">
                     <div class="team-member text-center">
                         <div class="team-img">
-                            <img src="assets/images/team2.jpg" alt="" class="radius-image img-fluid">
+                            <img src="assets/images/volun5girl.jpeg" alt="" class="radius-image img-fluid">
                         </div>
-                        <a href="#url" class="team-title">Claire olson</a>
-                        <p>Volunteers</p>
+                        <a href="#url" class="team-title">Aisha Muhammed</a>
+                        <p>Volunteer</p>
                     </div>
                 </div>
                 <!-- end team member -->
@@ -129,10 +92,10 @@
                 <div class="team-wrap">
                     <div class="team-member last text-center">
                         <div class="team-img">
-                            <img src="assets/images/team3.jpg" alt="" class="radius-image img-fluid">
+                            <img src="assets/images/volun3.jpeg" alt="" class="radius-image img-fluid">
                         </div>
-                        <a href="#url" class="team-title">Phillip hunt</a>
-                        <p>Volunteers</p>
+                        <a href="#url" class="team-title">Ngozi Joy </a>
+                        <p>Volunteer</p>
                     </div>
                 </div>
                 <!-- end team member -->
@@ -140,10 +103,10 @@
                 <div class="team-wrap">
                     <div class="team-member last text-center">
                         <div class="team-img">
-                            <img src="assets/images/team4.jpg" alt="" class="radius-image img-fluid">
+                            <img src="assets/images/volun4.jpeg" alt="" class="radius-image img-fluid">
                         </div>
-                        <a href="#url" class="team-title">Sara grant</a>
-                        <p>Volunteers</p>
+                        <a href="#url" class="team-title">Sara Peace</a>
+                        <p>Volunteer</p>
                     </div>
                 </div>
                 <!-- end team member -->
